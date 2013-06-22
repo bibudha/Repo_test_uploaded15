@@ -52,7 +52,7 @@
     <preference name="TopActivityIndicator" value="gray" />
 	
 	
-	<gap:plugin name="EmailComposer" /><!-- latest release -->
+
     <feature name="Geolocation">
       <param name="ios-package" value="CDVLocation"/>
     </feature>
@@ -124,7 +124,9 @@
     <feature name="App">
       <param name="android-package" value="org.apache.cordova.App"/>
     </feature>
-	
+	 <feature name="EmailComposer">
+      <param name="android-package" value="org.apache.cordova.EmailComposer"/>
+    </feature>
     <feature name="Geolocation">
       <param name="android-package" value="org.apache.cordova.GeoBroker"/>
     </feature>
